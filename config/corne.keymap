@@ -52,16 +52,39 @@
     };
 
     macros {
-        browsertab: browsertab {
+        nbdenies_macro: nbdenies_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LCTRL>,
-                <&macro_tap>,
-                <&kp TAB>,
-                <&macro_release>,
-                <&kp LCTRL>;
+            bindings = <&kp DOT &kp N &kp B &kp D &kp E &kp N &kp I &kp E &kp S>;
+            label = "NBDENIES_MACRO";
+        };
+
+        encouraged_macro: encouraged_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOT &kp N &kp A &kp B &kp E &kp N &kp C &kp O &kp U &kp R &kp A &kp G &kp E &kp D>;
+            label = "ENCOURAGED_MACRO";
+        };
+
+        lab_macro: lab_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOT &kp N &kp A &kp B &kp L &kp A &kp B>;
+            label = "LAB_MACRO";
+        };
+
+        exam_macro: exam_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOT &kp N &kp A &kp B &kp E &kp X &kp A &kp M>;
+            label = "EXAM_MACRO";
+        };
+
+        cal_macro: cal_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOT &kp P &kp T &kp C &kp A &kp L &kp LBKT &kp N3 &kp STAR>;
+            label = "CAL_MACRO";
         };
     };
 
