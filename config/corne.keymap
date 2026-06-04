@@ -113,27 +113,9 @@
             layers = <0>;
         };
 
-        dollar {
-            bindings = <&kp DOLLAR>;
-            key-positions = <4 16>;
-            layers = <0>;
-        };
-
-        pound {
-            bindings = <&kp POUND>;
-            key-positions = <3 15>;
-            layers = <0>;
-        };
-
         at {
             bindings = <&kp AT>;
             key-positions = <2 14>;
-            layers = <0>;
-        };
-
-        backslash {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <26 14>;
             layers = <0>;
         };
 
@@ -143,21 +125,9 @@
             layers = <0>;
         };
 
-        slash {
-            bindings = <&kp SLASH>;
-            key-positions = <32 20>;
-            layers = <0>;
-        };
-
         plus {
             bindings = <&kp PLUS>;
             key-positions = <7 19>;
-            layers = <0>;
-        };
-
-        minus {
-            bindings = <&kp KP_MINUS>;
-            key-positions = <31 19>;
             layers = <0>;
         };
 
@@ -167,33 +137,35 @@
             layers = <0>;
         };
 
-        leftbrack {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <31 32>;
-            layers = <0>;
+        Layer1toggle {
+            bindings = <&tog 1>;
+            key-positions = <38 37>;
         };
 
-        rightbrack {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <33 32>;
-            layers = <0>;
-        };
-
-        para-less {
-            bindings = <&paraless>;
+        slash {
+            bindings = <&kp SLASH>;
             key-positions = <20 19>;
             layers = <0>;
         };
 
-        para-great {
-            bindings = <&paragreat>;
-            key-positions = <20 21>;
-            layers = <0>;
+        dash {
+            bindings = <&kp KP_MINUS>;
+            key-positions = <16 15>;
         };
 
-        Layer1toggle {
-            bindings = <&tog 1>;
-            key-positions = <38 37>;
+        RCarrot {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <27 28>;
+        };
+
+        Lparenth {
+            bindings = <&kp KP_LEFT_PARENTHESIS>;
+            key-positions = <16 17>;
+        };
+
+        Rparenth {
+            bindings = <&kp KP_RIGHT_PARENTHESIS>;
+            key-positions = <18 19>;
         };
     };
 
