@@ -9,6 +9,8 @@
 #define ADJ 3
 #define EXTRA 4
 
+&lt { tapping-term-ms = <150>; };
+
 / {
     behaviors {
         hm: homerow_mods {
@@ -201,10 +203,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp TAB           &kp LEFT_ALT  &kp EQUAL         &kp KP_PLUS   &kp TILDE             &kp COMMA                &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp NUMBER_0    &kp PERIOD    &kp BACKSPACE
+&kp TAB           &kp LEFT_ALT  &kp EQUAL         &kp KP_PLUS   &kp TILDE             &kp COMMA                &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp PERIOD      &kp COMMA     &kp BACKSPACE
 &kp LEFT_SHIFT    &kp LEFT_GUI  &kp GREATER_THAN  &kp KP_MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH       &kp UP_ARROW  &kp COLON
 &kp LEFT_CONTROL  &cal_macro    &lab_macro        &exam_macro   &encouraged_macro     &nbdenies_macro          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
-                                                  &kp LGUI      &kp SPACE             &mo 1                    &kp RET       &lt 3 SPACE   &kp F2
+                                                  &kp LGUI      &kp SPACE             &mo 1                    &kp N0        &lt 3 SPACE   &kp RET
             >;
         };
 
